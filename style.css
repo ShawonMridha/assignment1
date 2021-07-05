@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 40px;
+}
+ span{
+     color: brown;
+ }
+ section{
+     display: flex;
+     margin-bottom: 160px;
+ }
+ .half-width{
+     width: 50%;
+     padding-left: 3%;
+     
+ }
+ .half-width img{
+     width: 50%;
+     
+ }
+ .link-button{
+     text-decoration: none;
+     background-image: linear-gradient(orange, tomato);
+     padding: 10px 40px;
+     border-radius: 5px;
+ }
+ .about{
+     background-image: url(image/Frame.jpg);
+     background-repeat: no-repeat;
+ }
+
+ .food-details{
+     text-align: center;
+     margin: 0 auto;
+
+ }
+
+ div .food-card1 {
+   margin: 30px;
+  }
+
+ .food-card-details{
+     display: flex;
+     width: 400px;
+     padding: 10px 10px 20px 10px;
+     border: 1px solid #BFBFBF;
+     background-color: white;
+     box-shadow: 10px 10px 5px #aaaaaa;
+     margin: 30px;
+ }
+
+
+
+
+
