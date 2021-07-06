@@ -1,11 +1,38 @@
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    font-family: 'STIX Two Math', serif;
+    
 }
-h1{
-    font-size: 40px;
+
+
+ul{
+    list-style: none;
+    text-align: right;
+   
 }
+li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+ ul li a{
+     text-decoration: none;
+     color: white;
+     font-weight: bold;
+     font-size: medium;
+     
+     }
+.header{
+    background-color: tomato;
+}
+ .half-width h1{
+     letter-spacing: 1.5px;
+ }
+
+
+
  span{
      color: brown;
  }
@@ -31,29 +58,49 @@ h1{
  .about{
      background-image: url(image/Frame.jpg);
      background-repeat: no-repeat;
+     
  }
 
  .food-details{
      text-align: center;
      margin: 0 auto;
+     margin-bottom: auto;
+
 
  }
-
- div .food-card1 {
-   margin: 30px;
-  }
 
  .food-card-details{
-     display: flex;
+    width: 1350px;
+    margin:  auto;
+    margin-bottom: 150px;
+
+}
+
+ 
+
+ .food-card-details .food-card1 {
      width: 400px;
-     padding: 10px 10px 20px 10px;
-     border: 1px solid #BFBFBF;
-     background-color: white;
-     box-shadow: 10px 10px 5px #aaaaaa;
-     margin: 30px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    border-radius: 5px;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    
+
+   }
+ .food-card1 img{
+     width: 100%;
+
+ }  
+ .yellow{
+     color: orange;
  }
+footer{
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    color: white;
 
-
-
-
+}
 
